@@ -29,7 +29,7 @@ export function App() {
       </button>
       </div>
 
-       <div className="flex items-center gap-3">
+       <div className="flex items-center gap-3 pb-2">
           <img src="/visa.png" alt="" width={60} className="rounded-md overflow-hidden shrink-0" />
           <div className="flex justify-between items-center w-full">
             <div className="flex ">
@@ -43,6 +43,20 @@ export function App() {
             </div>
           </div>
         </div> 
+       <div className="flex items-center gap-3 pb-2">
+          <img src="/mastercard.png" alt="" width={60} className="rounded-md overflow-hidden shrink-0" />
+          <div className="flex justify-between items-center w-full">
+            <div className="flex ">
+              <div className="flex flex-col items-center gap-2 font-medium text-white">
+                Tinofey Pilulkin{' '}
+                <div className="opacity-50 text-xs mt-0.5">**** 1234</div>
+                
+              </div>
+              <button>→</button>
+            </div>
+          </div>
+        </div> 
+ 
 
 
       <div className="bg-green-200/15 rounded-lg py-2 px-3 text-sm text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quo vitae quas reprehenderit, veniam placeat!</div>
